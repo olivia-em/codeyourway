@@ -63,10 +63,11 @@ function draw() {
 }
 
 
-// // test out different seeds, if there's one you particularly like then 
-// // you could potentially comment this out, and set the seed to 
-// // the number you like most for the same result everytime 
+// test out different seeds, if there's one you particularly like then 
+// you could potentially comment this out, and set the seed to 
+// the number you like most for the same result everytime 
 // function mousePressed() {
 //   seed = random(1000);
 
 // }
+
