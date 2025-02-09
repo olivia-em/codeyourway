@@ -1,3 +1,7 @@
+
+// used this reference for image masking
+// https://editor.p5js.org/allison.parrish/sketches/kOHWUvQR1
+
 let startX;
 let startY;
 let endX;

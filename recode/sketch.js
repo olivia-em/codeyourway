@@ -35,7 +35,7 @@ function draw() {
       
     }
   }
-  ty1+=speed;
+  // ty1+=speed;
 }
 
 function mouseClicked() {
