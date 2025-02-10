@@ -31,15 +31,14 @@ function draw() {
         rect(xpos, ypos, sizing*random(0.5,3), sizing*random(0.5,3));
       } else {
         ellipse(xpos, ypos, sizing*random(0.5,3), sizing*random(0.5,3));
-      }
-      
+      } 
     }
   }
   noLoop();
   // ty1+=speed;
 }
 
-function mouseClicked() {
+function mousePressed() {
   tx1 = random(1000);
   ty1 = random(1000);
   s1 = random(2000);
