@@ -35,6 +35,7 @@ function draw() {
       
     }
   }
+  noLoop();
   // ty1+=speed;
 }
 
@@ -43,5 +44,6 @@ function mouseClicked() {
   ty1 = random(1000);
   s1 = random(2000);
   s2 = random(2500);
+  loop();
 }
 
