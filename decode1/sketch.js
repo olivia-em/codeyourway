@@ -7,7 +7,7 @@ function setup() { // only run once, no animation
   // noFill();
 
   minSize = min(width, height);
-  amount = minSize / 30;
+  amount = minSize / 25;
 
   // console.log(amount)
   blendMode(BLEND);
@@ -28,7 +28,7 @@ function change() {
     // random colors for fill and stroke
     stroke(random(0, 255), random(0, 255), random(0, 255));
     fill(random(0, 255), random(0, 255), random(0, 255))
-    circle(x, y, amount * i); // width increase for each i
+    circle(x, y, amount/3 * i); // width increase for each i
   }
 }
 
