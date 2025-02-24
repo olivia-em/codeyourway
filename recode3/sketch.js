@@ -1,4 +1,5 @@
 // https://editor.p5js.org/p5/sketches/Color:_Radial_Gradient
+// https://p5js.org/reference/p5/lerpColor/
 
 let dim;
 let seed = 1;
