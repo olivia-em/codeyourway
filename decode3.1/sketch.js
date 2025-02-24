@@ -14,7 +14,8 @@ function setup() {
   rectMode(CENTER);
   noFill();
   strokeWeight(2);
-
+  frameRate(15);
+  // angleMode(DEGREES);
 }
 
 function draw() {
@@ -22,7 +23,7 @@ function draw() {
   background(0,0,0);
   // blendMode(DIFFERENCE);
   cellSize = min(width / 25, height / 25);
-  frameRate(10);
+  
   for (let y = 0; y < height; y += cellSize -10) {
     for (let x = 0; x < width; x += cellSize) {
       push();
@@ -30,17 +31,18 @@ function draw() {
      
       rotateAmount = sin(angle);
       rotate(rotateAmount);
-      fill(0,0 ,map(x,0,width,100,0));
-      stroke(0,0 ,map(x,0,width,0,100));
+      // fill(0,0 ,map(x,0,width,100,0));
+      // stroke(0,0 ,map(x,0,width,0,100));
 
-      // stroke(map(y,0,height,360,0),1000 ,map(x,0,width,0,100));
-      // fill(map(y,0,height,0,360),100 ,map(x,0,width,100,0));
+      stroke(map(y,0,height,360,0),100 ,map(x,0,width,0,100));
+      fill(map(y,0,height,0,360),100,map(x,0,width,100,0));
 
       square(-cellSize / 2 , -cellSize / 2, cellSize+ 10* sin(angle));
       pop();
       
     }
     angle += 0.5;
+    // angle += 10;
   }
 
 }
