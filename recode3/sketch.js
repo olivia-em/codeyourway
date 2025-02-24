@@ -52,6 +52,6 @@ function drawGradient(x, y) {
 }
 
 function mouseClicked() {
-  seed = random(100);
+  seed = random(1000);
   loop();
 }
