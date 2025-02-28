@@ -8,11 +8,13 @@ let xSpeed = 3, ySpeed = 2;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noFill();
+  background(0);
   stroke(255);
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  background(0);
 }
 
 function draw() {

@@ -6,6 +6,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   noFill();
   stroke(255);
+  background(0);
 }
 
 function windowResized() {
