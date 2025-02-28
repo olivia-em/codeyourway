@@ -4,10 +4,16 @@ let direction = 1;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  blendMode(BLEND);
+  background(0);
+  
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  blendMode(BLEND);
+  background(0);
+  
 }
 
 function draw() {
