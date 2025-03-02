@@ -12,7 +12,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   stroke(255);
   strokeWeight(3);
-  background(0);
+  background(0); 
 }
 
 function draw() {
@@ -21,14 +21,14 @@ function draw() {
   let minDimension = min(width, height);
   let radius = (minDimension * 3) / 8;
 
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 200; i++) {
     let x1 = cos((-3 * t + i) / 10) * radius + width / 2;
     let y1 = sin((2 * t + i) / 10) * radius + height / 2;
 
     let x2 = cos((3 * t + i) / 10) * radius + width / 2;
     let y2 = sin((-2 * t + i) / 10) * radius + height / 2;
     
-    stroke(map(i,0,100,0,255),map(i,0,50,255,0),map(i,0,100,255,0))
+    stroke(map(i,0,200,0,255),map(i,0,50,255,0),map(i,0,200,255,0))
 
     line(x1, y1, x2, y2);
   }
