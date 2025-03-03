@@ -33,7 +33,7 @@ function draw() {
     let angle = map(i, 0, numPoints, 0, TWO_PI); // Distribute points evenly in a circle
 
     let r = radius + sin(angle * 3 + t + phase) * 50 + cos(angle * 5 + t) * 30;
-    //stroke(50*j + sin(angle),100,70);
+
     let c = lerpColor(color(random(255),0,random(255)), color(0,random(255),random(255)), j*2 /numLines);
     stroke(c);
     
