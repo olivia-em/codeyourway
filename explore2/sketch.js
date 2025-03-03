@@ -22,7 +22,7 @@ function draw() {
   let from = color(random(255), random(255), random(255));
   let to = color(random(255), random(255), random(255));
 
-  let amplitude = width / 3;
+  let amplitude = min(width,height) / 3;
 
   let x1 = sin(t / -10) * amplitude;
   let y1 = cos(t / 10) * amplitude;
