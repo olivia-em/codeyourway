@@ -54,3 +54,37 @@ function draw() {
 
   angle += 0.02;
 }
+
+//////////////////////////////////////////////////
+
+
+// let angle = 0;
+
+// function setup() {
+//   createCanvas(windowWidth, windowHeight);
+//   noFill();
+//   stroke(255);
+// }
+
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+//   background(0);
+// }
+
+// function draw() {
+//   background(0, 25);
+
+//   translate(width / 2, height / 2);
+
+//   let minDimension = min(width, height);
+
+//   strokeWeight(minDimension * 0.015);
+
+//   let radius = minDimension * 0.25;
+//   let x = cos(angle) * radius;
+//   let y = sin(angle) * radius;
+
+//   circle(x, y, radius * 0.75);
+
+//   angle += 0.02;
+// }

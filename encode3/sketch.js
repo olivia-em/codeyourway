@@ -59,3 +59,34 @@ function draw() {
   xpos += xSpeed;
   ypos += ySpeed;
 }
+
+
+///////////////////////////////////////////////////////////////////
+
+// let angle = 0;
+
+// function setup() {
+//   createCanvas(windowWidth, windowHeight);
+//   noFill();
+//   stroke(255);
+// }
+
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// }
+
+// function draw() {
+//   background(0);
+
+//   let minDimension = min(width, height);
+
+//   let amount = sin(angle)/2 + 0.6;
+
+//   let thickness = minDimension/20 * amount;
+//   strokeWeight(thickness);
+  
+//   let diam = minDimension/2;
+//   circle(width / 2, height / 2, diam);
+
+//   angle += 0.03;
+// }

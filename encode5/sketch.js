@@ -50,3 +50,43 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   background(0);
 }
+
+
+////////////////////////////////////////////////////////////////////////
+
+// let totalPositions = 9;
+// let positionStep = 0;
+
+// function setup() {
+//   createCanvas(windowWidth, windowHeight);
+//   angleMode(DEGREES);
+//   fill(255);
+//   noStroke();
+// }
+
+// function draw() {
+//   background(0, 5);
+
+//   translate(width / 2, height / 2);
+
+//   let angle = (360 / totalPositions) * positionStep;
+  
+//   rotate(angle);
+
+//   let minDimension = min(width, height);
+//   let diam = minDimension * 0.05;
+//   circle(50, 0, diam);
+
+//   if (frameCount % 30 === 0) {
+//     positionStep++;
+//     if (positionStep >= totalPositions) {
+//       positionStep = 0;
+//     }
+//   }
+// }
+
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+//   background(0);
+// }
+

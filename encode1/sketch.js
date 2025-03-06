@@ -56,3 +56,48 @@ function draw() {
   angle += 0.5; // set speed of rotation
   pop();
 }
+
+
+//////////////////////////////////////////////////////////////
+
+// Based on p5.js demos by Matt DesLauriers
+// https://github.com/mattdesl/workshop-p5-intro
+
+// let angle = 0;
+
+// function setup() {
+//   createCanvas(windowWidth, windowHeight);
+//   angleMode(DEGREES);
+//   fill(255);
+// }
+
+// function draw() {
+//   blendMode(BLEND);
+//   background(0);
+//   blendMode(DIFFERENCE);
+
+//   let x = width / 2;
+//   let y = height / 2;
+
+//   let minDimension = min(width, height);
+//   let spacing = minDimension / 8;
+
+//   circle(x + spacing, y + spacing, spacing * 4);
+
+//   triangle(
+//     x - spacing,
+//     y - spacing * 3,
+//     x + spacing,
+//     y + spacing,
+//     x - spacing * 3,
+//     y + spacing
+//   );
+  
+//   push();
+//   translate(x, y);
+//   rotate(angle);
+//   rectMode(CENTER);
+//   square(0, 0, spacing * 4);
+//   angle += 0.5;
+//   pop();
+// }

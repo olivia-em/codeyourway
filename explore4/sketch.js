@@ -37,7 +37,6 @@ function draw() {
   let y1 = sin(angle*i/10) * noise(tx, ty, tz) * minDimension/2;
   let z1 = sin(angle*i/15) * noise(tx, ty, tz) * minDimension/2;
 
-
   stroke(random(255), random(255), random(255));
   line(x1, y1, z1, 0,0,0);
   }
