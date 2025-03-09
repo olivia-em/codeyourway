@@ -1,10 +1,10 @@
 let video;
-let pw, ph; // Dynamic grid size
+let pw, ph;
 let rectSize;
 let keyval1 = 0;
 let keyval2 = 0;
 let clearedPixels = [];
-let textToDraw = []; // Stores text positions for layering
+let textToDraw = [];
 
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight - 50); // Adjust for input field
@@ -84,11 +84,6 @@ function windowResized() {
   updateGridSize(); // Recalculate grid
 }
 
-function myClear() {
-  document.getElementById("i1").value = "";
-}
-
-
 // Stores keycode in global variables when a key is pressed
 function keyPressed() {
   if (keyCode % 2 === 0) {
@@ -101,7 +96,7 @@ function keyPressed() {
 // Clears 500 random pixels
 function clearRandomPixels() {
   clearedPixels = [];
-  let pixelsToClear = 500;
+  let pixelsToClear = 200;
 
   for (let n = 0; n < pixelsToClear; n++) {
     let i = floor(random(pw));
@@ -109,6 +104,11 @@ function clearRandomPixels() {
     clearedPixels.push(`${i},${j}`);
   }
 }
+
+function myClear() {
+  document.getElementById("i1").value = "";
+}
+
 
 ////////////////////////
 
