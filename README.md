@@ -1,1 +1,3 @@
-# codeofmusic
+# codeyourway
+
+repo for all exercises
